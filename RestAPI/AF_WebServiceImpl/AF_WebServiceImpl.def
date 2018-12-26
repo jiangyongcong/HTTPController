@@ -1,0 +1,8 @@
+; AF_WebServiceImpl.def : 声明 DLL 的模块参数。
+
+LIBRARY      "AF_WebServiceImpl"
+
+EXPORTS
+    ; 此处可以是显式导出
+   DLL_InitStartup				@1
+   DLL_Terminate				@2
